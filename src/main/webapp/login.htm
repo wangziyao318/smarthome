@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="./css/reset.css"/>
+	<link rel="stylesheet" href="./css/style.css"/>
+	<!-- jQuery -->
+	<script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js" defer></script>
+	<!-- SparkMD5 -->
+	<script src="https://cdn.staticfile.org/spark-md5/3.0.2/spark-md5.min.js" defer></script>
+	<!-- custom -->
+	<script src="./js/script_login.js" defer></script>
+	<title>Login</title>
+</head>
+<body style="height: 100vh">
+	<!-- main -->
+	<div class="main">
+		<h1>SmartHome Login</h1>
+		<div class="login-form">
+			<h2>Login Form</h2>
+			<form action="javascript:void(0)" method="post">
+				<div class="agileits-top">
+					<div class="styled-input">
+						<input type="text" name="username" required=""/>
+						<label>User Name</label>
+					</div>
+					<div class="styled-input">
+						<input type="password" name="password" required=""/>
+						<label>Password</label>
+					</div>
+					<div class="wthree-text">
+						<ul>
+							<li>
+								<input type="checkbox" id="brand" value="">
+								<label for="brand"><span></span> Remember me?</label>
+							</li>
+							<li><a href="./register">Register</a></li>
+						</ul>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="agileits-bottom">
+					<input type="submit" value="Login">
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- //main -->
+</body>
+</html>
